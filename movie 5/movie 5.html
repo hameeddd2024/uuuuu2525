@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="movie 5.css">
+    <title>movie5</title>
+</head>
+<body>
+ 
+  <header>
+    <div class="contnet">
+
+      <div class="logo">
+        <img src="../صور4/الشعار.jpg"  alt="">
+      </div>
+  <nav>
+      <ul class="mean">
+         <li><a href="page1.1.html"  target="_blank">الصحفحة الرئيسة</a></li>
+          <li><a href="porgrame2.html"  target="_blank" >اختبارات سابقة</a></li>
+          <li><a href="page4.html"  target="_blank">كورسات</a></li>
+          <li><a href="porgrame2.html"  target="_blank">الدروس</a></li>
+          <li><a href="porgrame2.html"  target="_blank">الاقسام</a></li>
+        </ul>
+        <img src="../صور4/1.png" id="toggle" alt="">
+      </nav>
+    </div>
+  </header>                  
+
+
+  <hr>
+   
+  <div class="hamed">
+    <div class="aaa">
+      <div class="img">
+        <img class="imgaa" src="../مجلد الصور الفلام/فلم امن المعلومات 2.jpg" alt="">
+      </div>
+      
+      <h1>فلم  فيس بوك </h1>
+      <h4>مشاهدة فلم the Social Network 2010</h4>
+      <hr>
+      <div class="pregref">
+      <h4>القصة</h4>
+        <p>
+            ربيتدور احداث الفلم استناد الى الكتاب الذي ابن ميزرك, جانابا من حياة مارك زوكربيرج
+            مؤسس فيس بوك منذان كان طالبا في الجامعة مرور 
+            بعمله مع صديقه ادوار سافرين على تطوير الموقع 
+            و الدوعوى القانوية التي حركها ضد الاخوان ينكفوس 
+            والتقلبات النفسية و الاجتماعية التي مربها زوكربيرج بعد تطوير الموقع 
+        </p>
+        <hr>
+      </div>
+      <div class="bege">
+
+           
+        <video class="hhh" controls  poster="../مجلد الصور الفلام/فلم امن المعلومات 2.jpg">
+          <source src="./movie/[Cimawbas]The_Social_Network_-_.mp4">
+              </video>
+
+              <script src="movie2.js"></script>
+</body>
+
+  <script>
+
+    const mean = document.querySelector('.mean');
+    const toggle = document.getElementById('toggle');
+
+    toggle.onclick = function () {
+      mean.classList.toggle('active');
+    }
+
+
+    // start img
+
+    function chanenImg(img) {
+      var singleImg = document.querySelector('#singleImg');
+      singleImg.setAttribute('src', img)
+    }
+
+// End img
+
+
+  </script>
+<!-- 
+<script src="movie2.js"></script> -->
+</html>
